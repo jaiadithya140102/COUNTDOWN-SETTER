@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTDOWN</title>
+    <link rel="stylesheet" href="/PROJECT-2/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+         <div class="getinput" id="cont">
+            <h2>Enter the Date</h2>
+            <input type="text" class="getdate" id="inputdate">
+            <button class="btn" id="sub-btn">SUBMIT</button>
+         </div>
+         <div class="showcountdown">
+            <h1>TIME REMAINING</h1>
+            <div class="clock">
+                <input type="text"  id="days" class="display" readonly value="0">
+                <label for="">DAYS</label>
+            </div>
+            <div class="clock">  
+                <input type="text"  id="hours" class="display" readonly value="0" >
+                <label for="">HOURS</label>
+            </div>
+            <div class="clock" >
+                <input type="text"  id="minutes" class="display" readonly value="0">
+                <label for="">MINUTES</label>
+            </div>
+            <div class="clock" >
+                <input type="text"  id="seconds" class="display" readonly value="0">
+                <label for="">SECONDS</label>
+            </div>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
